@@ -4,6 +4,7 @@ import core.BasePage;
 import jdk.nashorn.internal.objects.Global;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import readProperties.ConfigProvider;
 
 
 public class AuthPage extends BasePage {
@@ -21,7 +22,7 @@ public class AuthPage extends BasePage {
     private WebElement cancelButton;
 
     public AuthPage(){
-        driver.get(Global);
+        driver.get(ConfigProvider.URL);
     }
 
 }
