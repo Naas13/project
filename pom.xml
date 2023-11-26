@@ -21,7 +21,6 @@
         <allure-assertj.version>2.22.2</allure-assertj.version>
         <allure-java-commons.version>2.22.2</allure-java-commons.version>
         <aspectjweaver.version>1.9.5</aspectjweaver.version>
-
     </properties>
 
     <dependencies>
@@ -64,12 +63,12 @@
             <artifactId>allure-rest-assured</artifactId>
             <version>${allure-rest-assured.version}</version>
         </dependency>
-        <dependency>
-            <groupId>io.qameta.allure</groupId>
-            <artifactId>allure-commandline</artifactId>
-            <version>${allure-commandline.version}</version>
-            <type>pom</type>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>io.qameta.allure</groupId>-->
+<!--            <artifactId>allure-commandline</artifactId>-->
+<!--            <version>${allure-commandline.version}</version>-->
+<!--            <type>pom</type>-->
+<!--        </dependency>-->
         <dependency>
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-assertj</artifactId>
@@ -98,5 +97,4 @@
             <version>1.4.3</version>
         </dependency>
     </dependencies>
-
 </project>
